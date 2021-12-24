@@ -1,5 +1,5 @@
 body {
-	background: url(table.png) no-repeat;
+	background: url(table.png) repeat-y;
 	font-family: 'Oxygen', sans-serif;
 	background-size: cover;
 	text-align: center;
