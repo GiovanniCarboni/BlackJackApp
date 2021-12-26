@@ -1,6 +1,6 @@
 let player = {
 	name: "Player",
-	chips: 0,
+	chips: 0
 }
 
 let cards = [];
@@ -78,4 +78,11 @@ function drawCard() {
 	}
 }
 
+let hands = ["rock", "paper", "scissor"];
+let draw = Math.floor(Math.random() * 3);
 
+function play() {
+	return hands[draw];
+}
+
+console.log(play())
